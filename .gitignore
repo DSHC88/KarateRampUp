@@ -1,3 +1,6 @@
 /drivers/*
+/drivers/chrome
+/drivers/edge
+/drivers/firefox
 .vscode
 /target
