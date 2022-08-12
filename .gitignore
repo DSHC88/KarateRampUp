@@ -1,7 +1,7 @@
-/drivers/*
-/drivers/chrome
-/drivers/edge
-/drivers/firefox
+drivers/
+drivers/chrome
+drivers/edge
+drivers/firefox
 .vscode
 /target
 .git
