@@ -11,7 +11,7 @@ Scenario: Demo Automation
   When waitFor('{}Register').click()
   Then match text("//h1[@class='title']") == 'Signing up is easy!'
   # Diligenciar formulario
-  * def customerInfo = call read('classpath:UI_features/utils/fullForm.feature')
+  * def customerInfo = call read('classpath:UI_features/helpers/fullForm.feature')
   When click("//*[@value='Register']")
   Then match text("//h1[@class='title']") == 'Welcome example.test'+ customerInfo.number
 

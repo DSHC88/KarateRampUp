@@ -3,7 +3,7 @@ Feature: Karate Ramp-Up
 Background:
   * url uiUrl2
 
-Scenario: CheckBoxes
+Scenario: Dropdown
   Given driver uiUrl2
   And maximize()
   When waitFor('{h2}Available Examples')
